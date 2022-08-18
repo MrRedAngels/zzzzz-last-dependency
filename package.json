@@ -2,5 +2,12 @@
 	"name": "zzzzz-last-dependency",
 	"version": "0.0.0",
 	"main": "readme.md",
-	"description": "Project as dependency just to keep as last dependency and avoid trailing comma in json."
+	"description": "Project as dependency just to keep as last dependency and avoid trailing comma in json.",
+	"workspaces": [
+		"dependencies",
+		"devDependencies",
+		"optionalDependencies",
+		"peerDependencies",
+		"bundleDependencies"
+	]
 }
