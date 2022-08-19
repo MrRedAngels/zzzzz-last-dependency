@@ -7,7 +7,7 @@
 		"command": "myCommand"
 	},
 	"bin": {
-		"zzzzz-last-dependency": "index.js",
+		"zzzzz-last-dependency": "./index.js",
 		"myCommand": "index.js"
 	}
 }
